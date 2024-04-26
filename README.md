@@ -1,5 +1,10 @@
 # Waveform Extractor
+
+
 ## About
+
+<img src="https://github.com/ImperialCollegeLondon/Waveform-Extractor/assets/72060034/26a3196e-434e-4c91-9031-7e4e29b237dc"  align="right" width="500">
+
 Waveform Extractor is a light-weight toolbox allowing you to extract any waveform $Q$ (preferably, periodic) from a raster figure and reconstruct into 21 Fourier terms (surely the code is scalable for any 2D regression method upon request) as,
 
 $$Q_{\mathrm{recon}}(t) = \frac{1}{2} a_0 + \sum_{n=1}^{N/2} a_n \cos \left( n \cdot \frac{2 \pi}{T} \cdot t \right) + b_n \sin \left( n \cdot \frac{2 \pi}{T} \cdot t \right).$$
@@ -24,4 +29,5 @@ python WaveformExtractor.py -d
 ```
 The debug script `debug_fourier.py` (to upload) allows you to visualise the reconstructed waveform against the original waveform.
 
+---
 last update: 26/04/2024
