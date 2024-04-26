@@ -23,3 +23,5 @@ or
 python WaveformExtractor.py -d
 ```
 The debug script `debug_fourier.py` (to upload) allows you to visualise the reconstructed waveform against the original waveform.
+
+last update: 26/04/2024
