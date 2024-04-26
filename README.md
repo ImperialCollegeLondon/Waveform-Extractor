@@ -1,6 +1,6 @@
 # Waveform Extractor
 ## About
-Waveform Extractor is a light-weight toolbox allowing you to extract any waveform $Q$ (preferably, periodic) from a raster figure and reconstruct into 21 Fourier terms (surely the code is scalable for any 2D regression method upon request),
+Waveform Extractor is a light-weight toolbox allowing you to extract any waveform $Q$ (preferably, periodic) from a raster figure and reconstruct into 21 Fourier terms (surely the code is scalable for any 2D regression method upon request) as,
 
 $$Q_{\mathrm{recon}}(t) = \frac{1}{2} a_0 + \sum_{n=1}^{N/2} a_n \cos \left( n \cdot \frac{2 \pi}{T} \cdot t \right) + b_n \sin \left( n \cdot \frac{2 \pi}{T} \cdot t \right).$$
 
